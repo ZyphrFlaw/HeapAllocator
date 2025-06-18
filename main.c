@@ -106,7 +106,6 @@ int main()
     {
         int* add = (int*)myMalloc(request_size);
         printf("New Memory Address = %p\n", add);
-        request_size += 10;
         if (add == NULL)
         {
             printf("Error allocating memory in myMalloc()\n");
